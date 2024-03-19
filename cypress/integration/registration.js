@@ -7,7 +7,7 @@ describe('Registration Test', () => {
   
       // Fill in registration form
       cy.get('#registration_form_fullName').type('John Rambo');
-      cy.get('#registration_form_email').type('test10@mailinator.com');
+      cy.get('#registration_form_email').type('test11@mailinator.com');
       cy.get('#registration_form_plainPassword_first').type('!Password123');
       cy.get('#registration_form_plainPassword_second').type('!Password123');
       cy.get('.self-start').click();
