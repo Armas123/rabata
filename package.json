@@ -13,6 +13,8 @@
     "lodash": "^4.17.21"
   },
   "devDependencies": {
-    "cypress": "^9.7.0"
+    "@shelex/cypress-allure-plugin": "^2.40.2",
+    "cypress": "^9.7.0",
+    "typescript": "^5.5.0-dev.20240319"
   }
 }
